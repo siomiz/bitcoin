@@ -22,7 +22,7 @@ WORKDIR /home/bitcoin
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-EXPOSE 3888
+EXPOSE 8333
 
 CMD ["/usr/bin/bitcoind"]
 
